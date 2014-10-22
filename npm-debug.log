@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json requirejs.test@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/Soon/Development/Practice/requirejs',
+6 verbose install   [ 'grunt', 'grunt-contrib-requirejs' ] ]
+7 info preinstall requirejs.test@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt@~0.4.4', null ]
+10 verbose cache add name=undefined spec="grunt@~0.4.4" args=["grunt@~0.4.4",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt@~0.4.4',
+11 verbose parsed url   path: 'grunt@~0.4.4',
+11 verbose parsed url   href: 'grunt@~0.4.4' }
+12 verbose cache add [ 'grunt-contrib-requirejs@~0.4.4', null ]
+13 verbose cache add name=undefined spec="grunt-contrib-requirejs@~0.4.4" args=["grunt-contrib-requirejs@~0.4.4",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-contrib-requirejs@~0.4.4',
+14 verbose parsed url   path: 'grunt-contrib-requirejs@~0.4.4',
+14 verbose parsed url   href: 'grunt-contrib-requirejs@~0.4.4' }
+15 verbose cache add name="grunt" spec="~0.4.4" args=["grunt","~0.4.4"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '~0.4.4',
+16 verbose parsed url   path: '~0.4.4',
+16 verbose parsed url   href: '~0.4.4' }
+17 verbose addNamed [ 'grunt', '~0.4.4' ]
+18 verbose addNamed [ null, '>=0.4.4-0 <0.5.0-0' ]
+19 verbose cache add name="grunt-contrib-requirejs" spec="~0.4.4" args=["grunt-contrib-requirejs","~0.4.4"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '~0.4.4',
+20 verbose parsed url   path: '~0.4.4',
+20 verbose parsed url   href: '~0.4.4' }
+21 verbose addNamed [ 'grunt-contrib-requirejs', '~0.4.4' ]
+22 verbose addNamed [ null, '>=0.4.4-0 <0.5.0-0' ]
+23 silly lockFile c2e8a44a-grunt-0-4-4 grunt@~0.4.4
+24 verbose lock grunt@~0.4.4 /Users/Soon/.npm/c2e8a44a-grunt-0-4-4.lock
+25 silly lockFile d8d16741-grunt-contrib-requirejs-0-4-4 grunt-contrib-requirejs@~0.4.4
+26 verbose lock grunt-contrib-requirejs@~0.4.4 /Users/Soon/.npm/d8d16741-grunt-contrib-requirejs-0-4-4.lock
+27 silly lockFile c2e8a44a-grunt-0-4-4 grunt@~0.4.4
+28 error Error: Attempt to unlock grunt@~0.4.4, which hasn't been locked
+28 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+28 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+28 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+28 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+28 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+28 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+28 error     at Object.oncomplete (fs.js:107:15)
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Darwin 13.1.0
+31 error command "node" "/usr/local/bin/npm" "install"
+32 error cwd /Users/Soon/Development/Practice/requirejs
+33 error node -v v0.10.32
+34 error npm -v 1.4.28
+35 verbose exit [ 1, true ]
