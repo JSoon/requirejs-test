@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
     "name": "requirejs-test",
     "version": "0.0.1",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-requirejs": "~0.4.4"
     }
+=======
+  "name": "requirejs.test",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-requirejs": "~0.4.4"
+  }
+>>>>>>> c7093c5615c749e6c53f29c6af1fa7bfe033ca20
 }

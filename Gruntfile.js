@@ -37,5 +37,5 @@ module.exports = function (grunt) {
 
     // register tasks
     grunt.registerTask('r', ['requirejs']);
-
+    
 };
