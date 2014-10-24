@@ -1,3 +1,6 @@
+# error log
+*.log
+
 # webstorm workspace
 .idea/
 
