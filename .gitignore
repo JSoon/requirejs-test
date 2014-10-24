@@ -1,0 +1,8 @@
+# webstorm workspace
+.idea
+
+# bower libs
+bower_components
+
+# grunt plugins
+node_modules
