@@ -9,6 +9,18 @@
 
 <footer></footer>
 
-<script data-main="modules/test" src="modules/lib/require.js"></script>
+<!-- 3rd libraries -->
+<script src="modules/lib/require.js"></script>
+<script src="modules/lib/jquery.js"></script>
+<!-- app entrance -->
+<script>
+    /**
+     * This way to load config.js won't affect r.js since it's on the HTML itself not on the JS file,
+     * r.js won't read the HTML file.
+     */
+    require(['modules/config'], function () {
+        require(['app/test/main']);
+    });
+</script>
 </body>
 </html>

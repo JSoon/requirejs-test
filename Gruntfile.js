@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                     removeCombined: true, // 是否从输出目录移除与目标模块关联的模块
                     modules: [ // 需要优化的模块
                         {
-                            name: 'test',
+                            name: 'app/test/main',
                             exclude: [ // 排除的模块
                                 'jquery'
                             ]

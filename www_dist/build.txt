@@ -1,7 +1,6 @@
 
-modules/test.js
+modules/app/test/main.js
 ----------------
-modules/config.js
+modules/lib/jquery.shimTest.js
 modules/app/test/header.js
 modules/app/test/main.js
-modules/test.js
