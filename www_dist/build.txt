@@ -1,6 +1,19 @@
 
+modules/app/jcrop/jquery.Jcrop.css
+----------------
+modules/app/jcrop/jquery.Jcrop.css
+
+modules/lib/bootstrap.css
+----------------
+modules/lib/bootstrap.css
+
 modules/app/test/main.js
 ----------------
 modules/lib/jquery.shimTest.js
 modules/app/test/header.js
 modules/app/test/main.js
+
+modules/app/jcrop/main.js
+----------------
+modules/lib/jquery.Jcrop.js
+modules/app/jcrop/main.js

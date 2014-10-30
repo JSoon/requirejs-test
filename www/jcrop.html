@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jcrop test</title>
+
+    <link rel="stylesheet" href="modules/lib/bootstrap.css">
+    <link rel="stylesheet" href="modules/app/jcrop/jquery.Jcrop.css">
+</head>
+<body>
+<div class="container">
+    <img id="cropBox" src="modules/app/jcrop/taylor.jpg" alt="taylor swift">
+    <form id="cropBoxForm" role="form" style="margin-top: 20px;">
+        <div class="form-group">
+            <label for="x">x</label>
+            <input class="form-control" type="text" id="x" name="x" readonly>
+        </div>
+        <div class="form-group">
+            <label for="y">y</label>
+            <input class="form-control" type="text" id="y" name="y" readonly>
+        </div>
+        <div class="form-group">
+            <label for="w">w</label>
+            <input class="form-control" type="text" id="w" name="w" readonly>
+        </div>
+        <div class="form-group">
+            <label for="h">h</label>
+            <input class="form-control" type="text" id="h" name="h" readonly>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Crop Image">
+    </form>
+</div>
+
+<!-- 3rd libraries -->
+<script src="modules/lib/require.js"></script>
+<script src="modules/lib/jquery.js"></script>
+<!-- app entrance -->
+<script>
+    require(['modules/config'], function () {
+        require(['app/jcrop/main']);
+    });
+</script>
+</body>
+</html>

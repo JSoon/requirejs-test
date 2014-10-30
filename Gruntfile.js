@@ -27,6 +27,12 @@ module.exports = function (grunt) {
                             exclude: [ // 排除的模块
                                 'jquery'
                             ]
+                        },
+                        {
+                            name: 'app/jcrop/main',
+                            exclude: [
+                                'jquery'
+                            ]
                         }
                     ],
                     done: function (done, output) {
