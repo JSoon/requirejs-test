@@ -6,10 +6,26 @@
 
     <link rel="stylesheet" href="modules/lib/bootstrap.css">
     <link rel="stylesheet" href="modules/app/jcrop/jquery.Jcrop.css">
+    <style>
+        /* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+        #preview-pane .preview-container {
+            width: 128px;
+            height: 128px;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-    <img id="cropBox" src="modules/app/jcrop/taylor.jpg" alt="taylor swift">
+    <img id="cropBox" src="modules/app/jcrop/taylor.jpg" alt="Avatar">
+
+    <div id="preview-pane">
+        <div class="preview-container">
+            <img class="jcrop-preview" src="modules/app/jcrop/taylor.jpg" alt="Preview"/>
+        </div>
+    </div>
     <form id="cropBoxForm" role="form" style="margin-top: 20px;">
         <div class="form-group">
             <label for="x">x</label>
